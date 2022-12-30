@@ -67,8 +67,11 @@ table {
     background-color: #e7dfd8;
 }
 
-.first-section .first-column img {  
+.first-section .first-column .logo {  
     margin: 50px 80px;
+}
+.first-section .first-column .logo-full {  
+    display: none;
 }
 
 .first-section .first-column .title {  
@@ -134,28 +137,41 @@ table {
     .first-section .first-column {
         width: 100%;
     }
-    .first-section .first-column .title {  
-        font-size: 60px;
-        line-height: 70px;
+    .first-section .first-column .logo {
+        display: none;
     }
+    .first-section .first-column .logo-full {
+        display: initial;
+        align-self: center;
+        margin-top: 30px;
+    }
+    .first-section .first-column .title {  
+        font-size: 50px;
+        line-height: 70px;
+        margin: 50px 80px 50px;
+    }
+    .first-section .first-column .subtitle strong {
+        display: block;
+    }
+
     .first-section .second-column {
         display: none;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .first-section .first-column img {
-        margin: 50px;
+    .first-section .first-column .logo {
+        margin: 40px;
     }
     .first-section .first-column .title {
-        margin: 50px;
+        margin: 40px;
     }
     .first-section .first-column .subtitle {
-        margin-left: 50px;
-        margin-bottom: 50px;
+        margin-left: 40px;
+        margin-bottom: 40px;
     }
     .first-section .first-column a {
-        margin-left: 50px;
+        margin-left: 40px;
     }
 }
 @media screen and (max-width: 445px) {
@@ -222,6 +238,9 @@ table {
     }
 }
 @media screen and (max-width: 600px) {
+    .second-section img {
+        display: none;
+    }
     .second-section h2 {
         font-size: 32px;
     }
