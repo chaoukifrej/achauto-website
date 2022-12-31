@@ -1,7 +1,5 @@
-const btn = document.querySelector('#contact-btn');
+function scrollToContact() {
+    const contactElement = document.getElementById('contact');
 
-btn.addEventListener('click', () => {
-    document.querySelector('#contact').scrollIntoView({
-        behavior: 'smooth',
-    });
-});
+    contactElement.scrollIntoView({ behavior: 'smooth' });
+}

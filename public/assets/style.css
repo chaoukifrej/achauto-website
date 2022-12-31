@@ -535,7 +535,7 @@ table {
     margin: 80px 0px;
 }
 
-.fifth-section .second-column .content h4 {
+.fifth-section .second-column .content h3 {
     font-size: 28px;
     font-weight: 600;
     text-transform: uppercase;
@@ -595,7 +595,7 @@ table {
     .fifth-section .second-column .content {
         margin: 30px 0px;
     }
-    .fifth-section .second-column .content h4 {
+    .fifth-section .second-column .content h3 {
         font-size: 22px;
         margin-bottom: 12px;
     }
